@@ -11,7 +11,7 @@ int main(){
     while(i != str.length()){
         if (str[i] == separator[0]){
             if (str.substr(i,separator.size()) == separator){
-                //matched
+                //matched str
                 i += separator.length();
                 result.push_back(temp);
                 temp = "";
