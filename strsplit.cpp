@@ -27,5 +27,11 @@ int main(){
     for (int i=0;i<result.size();i++){
         cout << result[i] << endl;
     }
+    /*
+    Output:
+    I
+    love
+    you
+    */
     return 0;
 }
